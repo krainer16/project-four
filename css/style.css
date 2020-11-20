@@ -1,0 +1,379 @@
+h1 {
+  font-size: 63px;
+  color: #c72a2a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  font-size: 22px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-size: 12px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .grid-1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .grid-1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .grid-1-8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .grid-1-8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .grid-1-12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .grid-1-12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .grid-1-16 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .grid-1-16 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .grid-1-20 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+
+  .grid-1-20 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-1-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .grid-1-8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .grid-1-12 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .grid-1-16 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .grid-1-20 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+  }
+}
+
+.card.grid-1-2 img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.card.grid-1-4 img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.card.grid-1-8 img {
+  object-fit: cover;
+  height: 100%;
+}
+.card.grid-1-12 img {
+  object-fit: cover;
+  height: 100%;
+}
+.card.grid-1-16 img {
+  object-fit: cover;
+  height: 100%;
+}
+.card.grid-1-20 img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.card {
+  box-shadow: 0 0 18px 0 rgba(199, 42, 42, 0.7);
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 44px;
+  max-width: 200px;
+  max-height: 400px;
+  background-color: rgba(20, 30, 144, 0.4);
+}
+
+.card img {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.card img:hover {
+  opacity: 1;
+}
+
+.card p {
+  font-size: 16px;
+}
+
+#wrapper .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper:hover .text {
+  visibility: visible;
+}
+
+#wrapper2 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper2:hover .text {
+  visibility: visible;
+}
+
+#wrapper3 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper3:hover .text {
+  visibility: visible;
+}
+
+#wrapper4 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper4:hover .text {
+  visibility: visible;
+}
+
+#wrapper5 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper5:hover .text {
+  visibility: visible;
+}
+
+#wrapper6 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper6:hover .text {
+  visibility: visible;
+}
+#wrapper7 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper7:hover .text {
+  visibility: visible;
+}
+#wrapper8 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper8:hover .text {
+  visibility: visible;
+}
+
+#wrapper9 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper9:hover .text {
+  visibility: visible;
+}
+
+#wrapper10 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper10:hover .text {
+  visibility: visible;
+}
+
+#wrapper11 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper11:hover .text {
+  visibility: visible;
+}
+
+#wrapper12 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper12:hover .text {
+  visibility: visible;
+}
+
+#wrapper13 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper13:hover .text {
+  visibility: visible;
+}
+
+#wrapper14 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper14:hover .text {
+  visibility: visible;
+}
+
+#wrapper15 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper15:hover .text {
+  visibility: visible;
+}
+
+#wrapper16 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper16:hover .text {
+  visibility: visible;
+}
+
+#wrapper17 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper17:hover .text {
+  visibility: visible;
+}
+
+#wrapper18 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper18:hover .text {
+  visibility: visible;
+}
+
+#wrapper19 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper19:hover .text {
+  visibility: visible;
+}
+
+#wrapper20 .text {
+  position: relative;
+  left: 0px;
+  visibility: hidden;
+}
+
+#wrapper20:hover .text {
+  visibility: visible;
+}
+
+img {
+  height: auto;
+  max-width: 640px;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
